@@ -81,15 +81,18 @@ header {
 
   & .signup {
     display: flex;
-    gap: 45px;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
     align-items: center;
   }
   & button {
     background-color: rgba(0, 101, 254, 1);
     border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    font-weight: 500;
+    width: 120px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 600;
     color: white;
     border-radius: 100px;
     cursor: pointer;
